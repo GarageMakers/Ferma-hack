@@ -34,7 +34,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -125,8 +125,6 @@ body {
 	padding-right: 20px;
 	position: relative;
 }
-
-
 /*------ Navbar Styling ------*/
 
 .navbar {
@@ -1047,6 +1045,11 @@ body {
 /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
+
+	.container-s {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 	.ar-reviews {
 		padding: 5%;
