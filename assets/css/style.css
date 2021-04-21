@@ -112,6 +112,19 @@ body {
   z-index: 9999;
 }
 
+.container-m {
+	max-width: 1024px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
+
+.container-s {
+	max-width: 920px;
+	padding-left: 20px;
+	padding-right: 20px;
+	position: relative;
+}
 /*------ Navbar Styling ------*/
 
 .navbar {
@@ -1032,6 +1045,11 @@ body {
 /*------------------------------------------------
 ---------- Ar Review Section Styling -------------
 ------------------------------------------------*/
+
+	.container-s {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 
 	.ar-reviews {
 		padding: 5%;
