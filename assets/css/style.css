@@ -34,7 +34,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
@@ -111,21 +111,6 @@ body {
   position: relative;
   z-index: 9999;
 }
-
-.container-m {
-	max-width: 1024px;
-	padding-left: 20px;
-	padding-right: 20px;
-	position: relative;
-}
-
-.container-s {
-	max-width: 920px;
-	padding-left: 20px;
-	padding-right: 20px;
-	position: relative;
-}
-
 
 /*------ Navbar Styling ------*/
 
