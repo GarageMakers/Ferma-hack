@@ -274,7 +274,7 @@ body {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-
+}
 /*----------------------------------------------------------
 --------------- Hero Home Styling Starts -------------------
 ----------------------------------------------------------*/
@@ -744,10 +744,6 @@ body {
 .yd-stats {
 	padding: 100px 0;
 	background: #6d48e5;
-}
-
-.yd-stats .intro {
-
 }
 
 .yd-stats .intro h2 {
