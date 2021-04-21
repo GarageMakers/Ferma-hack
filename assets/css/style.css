@@ -32,9 +32,6 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -117,7 +114,6 @@ body {
 
 .container-m {
 	max-width: 1024px;
-	margin: 0 auto !important;
 	padding-left: 20px;
 	padding-right: 20px;
 	position: relative;
@@ -125,7 +121,6 @@ body {
 
 .container-s {
 	max-width: 920px;
-	margin: 0 auto !important;
 	padding-left: 20px;
 	padding-right: 20px;
 	position: relative;
@@ -138,7 +133,6 @@ body {
   font-family: "Montserrat";
 	padding-top: 25px;
 	padding-bottom: 25px;
-	background-color: transparent !important;
 	-webkit-transition: 0.5s all ease;
 	transition: 0.5s all ease;
 }
@@ -157,20 +151,8 @@ body {
 	margin-right: 0.3em;
 }
 
-.navbar .navbar-toggler {
-	border: none;
-}
-
 .navbar span.navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 0.9)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
-
-.navbar span.navbar-toggler-icon::before {
-	outline: none;
-}
-
-.navbar .navbar-toggler:focus {
-	outline: none;
 }
 
 .navbar-nav {
@@ -214,7 +196,7 @@ body {
 @media only screen and (max-width: 78px) {
 
 	.navbar {
-		/*background: rgba(255, 255, 255, 0.99) !important;*/
+		/* background: rgba(255, 255, 255, 0.99) !important; */
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
