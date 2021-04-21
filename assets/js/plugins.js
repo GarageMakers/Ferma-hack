@@ -387,7 +387,6 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, deltaX, deltaY);
-    event.preventDefault();
     scheduleClearCache();
 }
 
@@ -478,7 +477,7 @@ function keydown(event) {
     }
 
     scrollArray(elem, x, y);
-    event.preventDefault();
+    element.addEventListener(handleEvent, { passive: false });
     scheduleClearCache();
 }
 
