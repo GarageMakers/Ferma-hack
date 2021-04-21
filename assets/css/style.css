@@ -1391,6 +1391,14 @@ body {
 	background: rgba(30, 166, 154, 0.1);
 	background: #f6f6fd;
 	text-align: center;
+	flex: 0 0 auto;
+}
+.wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-sm .col-md-4:nth-child(even) {
