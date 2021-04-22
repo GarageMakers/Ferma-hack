@@ -1404,6 +1404,9 @@ body {
 .footer-sm .col-md-4:nth-child(even) {
 	text-align: center;
 }
+.pad{
+	padding: 0;
+}
 
 .footer-sm .footer-logo {
 	font-family: 'Montserrat';
